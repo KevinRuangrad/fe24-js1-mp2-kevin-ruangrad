@@ -8,11 +8,19 @@
     <script src="./js/main.js" defer></script>
   </head>
   <body>
-    <div id="roundCount"></div>
-    <div id="playerScore">Player Score:</div>
-    <div id="totalScore">Total Score:</div>
-    <div class="rollAmount"></div>
-    <button id="rollBtn">Roll Dice!</button>
-    <button id="freezeBtn">Freeze Points</button>
+    <form id="form">
+      <label for="playerName">Enter Your Name:</label>
+      <input type="text" id="playerName" name="playerName" />
+      <button id="submitBtn" type="submit">Submit</button>
+    </form>
+    <div id="playerDisplay"></div>
+    <div class="game">
+      <div id="roundCount"></div>
+      <div id="playerScore">Player Score:</div>
+      <div id="totalScore">Total Score:</div>
+      <div class="rollAmount"></div>
+      <button id="rollBtn">Roll Dice!</button>
+      <button id="freezeBtn">Freeze Points</button>
+    </div>
   </body>
 </html>

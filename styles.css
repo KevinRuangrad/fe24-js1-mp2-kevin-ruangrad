@@ -12,16 +12,21 @@ body {
   height: 100vh;
 }
 
-body div {
-  padding: 20px;
-}
-
 body button {
-    margin: 10px;
+  margin: 10px;
 }
 
 .rollAmount {
-    padding : 10px;
-    border: 1px solid black;
-    width: 35px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  width: 35px;
+}
+
+.game {
+  visibility: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
